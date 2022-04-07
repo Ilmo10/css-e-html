@@ -29,6 +29,14 @@ body {
 }
 
 /* Barra Navegação*/
+a:link a:visited{
+    color: #b10333;
+    padding: 2px;
+}
+a:hover{
+    color: #e50040;
+}
+
 ul{
     margin: 0;
     padding: 0;
@@ -88,7 +96,7 @@ body.fotos #navegação a#fotos{
 #duas-colunas #primario{
     width: 555px;  
 }
-#uma-colunas #primario{
+#uma-coluna #primario{
     width: 750px;
     margin: 0 0 20px 0;
 }
@@ -198,6 +206,7 @@ img.imagem-principal{
 }
 #lista-noticias li p  {
     font-size: 0.8em;
+    color: #000;
 }
  
 #lista-noticias li:hover {
